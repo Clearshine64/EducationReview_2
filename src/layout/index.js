@@ -18,7 +18,7 @@ export default function MainLayout() {
         <Image src="/images/home/airplaneout.svg" className="w-48 absolute -z-10 left-0 top-[1200px] hidden md:block" />
         <Image src="/images/home/airplaneout.svg" className="w-48 absolute -z-10 right-0 top-[1600px] hidden md:block" />
       </main>
-      <ScrollToTopButton />
+      {/* <ScrollToTopButton /> */}
       <Footer />
     </>
   )

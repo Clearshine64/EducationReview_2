@@ -38,17 +38,13 @@ export default function ExperReviewDetail({ data }) {
         />
       </div>
 
-      {filterModal &&
         <FilterModal
           open={filterModal}
           onClose={() => setFilterModal(false)}
           onRatingChange={(e) => { }}
           onCategoryChange={(e) => { }}
           onDistanceChange={(e) => { }}
-
-
         />
-      }
     </>
   )
 }

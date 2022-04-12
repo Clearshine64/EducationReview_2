@@ -31,10 +31,11 @@ export default function Header() {
   return (
     <div className=" bg-[#f79521] bg-opacity-[0.029]">
       <div className="container py-8 max-w-6xl">
-        <div className="container flex  justify-between text-bold text-lg font-bold">
-          <Link to="/" className=" mr-5">
+        <div className=" flex  justify-between text-bold text-lg font-bold">
+          <Link to="/" className="hidden lg:block mr-5">
             <img src="/logo192.png" className="h-16" alt="logo" />
           </Link>
+          <div className="grow"/>
           <div className=" gap-3 hidden lg:flex">
             <Link to="/about" className="">
               About
